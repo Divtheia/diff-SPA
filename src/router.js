@@ -8,6 +8,7 @@ import CourseList from './CourseList.vue';
 import Basic from './courses/Basic.vue';
 import Advanced from './courses/Advanced.vue';
 import Extreme from './courses/Extreme.vue';
+import Sidebar from './Sidebar/Sidebar.vue'
 
 import Drink from'./Drink/Drink.vue'
 
@@ -31,6 +32,7 @@ export default new VueRouter({
                 {path: 'extreme', component: Extreme},
                 ]},
             {path: 'drink', component: Drink},
+            {path: 'sidebar', component: Sidebar},
         ]},
     ],
     scrollBehavior (to, from, savedPosition) {
